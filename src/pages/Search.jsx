@@ -1,8 +1,12 @@
 import React from 'react'
+import Main from '../components/section/Main';
 
 const Search = () => {
   return (
-    <div>Search</div>
+    <Main title='유뷰트 검색'
+    description='유튜브 검색 결과 페이지입니다.'>
+      Search
+    </Main>
   )
 }
 
