@@ -1,6 +1,10 @@
 .header__logo {
   border-bottom: 1px solid var(--red);
 
+  @media(max-width: 800px) {
+    border-bottom: 0;
+  }
+
   a {
       display: flex;
       padding: 10px;
