@@ -3,7 +3,7 @@ import Main from '../components/section/Main';
 import Today from '../components/contents/Today'
 import Developer from '../components/contents/Developer'
 import Gsap from '../components/contents/Gsap'
-import Portfolio from '../components/contents/Protfolio'
+import Portfolio from '../components/contents/Portfolio'
 import Webd from '../components/contents/Webd'
 import Website from '../components/contents/Website'
 import Youtube from '../components/contents/Youtube'

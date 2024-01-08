@@ -1,14 +1,14 @@
 import React from 'react'
 
-import { websiteText } from '../../data/website'
+import { portfolioText } from '../../data/portfolio'
 import { Link } from 'react-router-dom'
 
-const Website = () => {
+const Portfolio = () => {
     return (
-        <section id='website'>
-            <h2>😛 웹표준 사이트 만들기 기초 다지기</h2>
+        <section id='portfolio'>
+            <h2>🤗 포트폴리오 만드는 방법을 공유합니다.</h2>
             <div className='video__inner'>
-                {websiteText.map((video, key) => (
+                {portfolioText.map((video, key) => (
                     <div className="video" key={key}>
                         <div className="video__thumb play__icon">
                             <Link to={`/video/${video.videoId}`}>
@@ -22,4 +22,4 @@ const Website = () => {
     )
 }
 
-export default Website
+export default Portfolio;

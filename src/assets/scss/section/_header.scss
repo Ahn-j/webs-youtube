@@ -112,6 +112,10 @@
   background-color: var(--blackAlpha100);
   backdrop-filter: blur(10px);
 
+  @media (max-width: 800px) {
+    display: none;
+  }
+
   li {
       display: inline-block;
 
