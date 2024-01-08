@@ -26,7 +26,7 @@ const App = () => {
                     <Route path='/webd' element={<Webd/>}/>
                     <Route path='/website' element={<Website/>}/>
                     <Route path='/gsap' element={<Gsap/>}/>
-                    <Route path='./port' element={<Port/>}/>
+                    <Route path='/port' element={<Port/>}/>
                     <Route path='/youtube' element={<Youtube/>}/>
                     <Route path='/channel/:channelID' element={<Channel/>}/>
                     <Route path='/video/:videoID' element={<Video/>}/>
