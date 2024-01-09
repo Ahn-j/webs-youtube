@@ -1,14 +1,24 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Main from '../components/section/Main';
 
 import { developerText } from '../data/developer';
 import { Link } from 'react-router-dom'
 
 const Developer = () => {
+  const [loading, setLoading] = useState(true); 
+
+  useEffect(() => {
+      setTimeout(() => {
+          setLoading(false);
+      }, 300);
+  }, []);
+
+  const DeveloperClass = loading ? 'isLoading' : 'isLoaded';
+
   return (
     <Main title='추천개발자'
     description='추천 개발자 유튜버입니다.'>
-      <section id='developerPage'>
+      <section id='developerPage' className={DeveloperClass}>
         <h2>🥰 오늘의 추천 개발자입니다.</h2>
         <div className="developer__inner">
           {developerText.map((developer, key) => (
