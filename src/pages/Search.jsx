@@ -34,7 +34,7 @@ const Search = () => {
     console.log("nextPage : ", pageToken)
     //Rapid API사용
     //Rapid 안에서 유튜브데이터v3 API를 사용하는것임
-    fetchFromAPI(`search?part=snippet&q=${query}&pageToken=${pageToken}`)
+    fetchFromAPI(`search?part=snippet&type=video&q=${query}&pageToken=${pageToken}`)
         .then((data) => {
             console.log("data : ", data)
             console.log("data.nextPageToken : ", data.nextPageToken)
