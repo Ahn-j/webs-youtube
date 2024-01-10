@@ -29,6 +29,8 @@
 
 
 #developerPage {
+  padding: 0;
+
   .developer__inner {
       .developer {
           margin-right: 20px;
@@ -64,6 +66,8 @@
 }
 @media (max-width: 800px){
   #developerPage {
+    margin-top: 80px;
+
       .developer__inner {
           margin-top: 70px;
       }

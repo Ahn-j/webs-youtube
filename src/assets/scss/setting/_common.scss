@@ -69,3 +69,15 @@ section {
   opacity: 1;
   transition: opacity 0.5s; 
 }
+
+#youtube,
+#webd,
+#website,
+#gsap,
+#portfolio  {
+  padding: 0;
+
+  @media (max-width: 800px){
+      margin-top: 80px;
+  }
+}
